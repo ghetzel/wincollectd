@@ -6,6 +6,11 @@ wincollectd
 wincollectd is a Windows service that gathers user-specified data from system
 [Performance Counters](http://msdn.microsoft.com/en-us/library/windows/desktop/aa373083\(v=vs.85\).aspx) and WMI (Windows Management Instrumentation) and delivers it to a remote collectd daemon via the collectd network plugin's [Binary Protocol](http://collectd.org/wiki/index.php/Binary_protocol).  The purpose of this service is to allow for metrics to be collected from Windows and delivered to a collectd server running on *nix such that both environments can be monitored homogenously.
 
+Project Information
+===================
+
+This is a Visual Studio 2008 project.  It has been successfully built on Windows XP Professional.
+
 Configuration
 =============
 
